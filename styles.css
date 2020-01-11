@@ -1,11 +1,19 @@
 
   body {
-    background-color: green;
+    background-color: #4bef76;
   }
   h1 {
     font-family: Helvetica, sans-serif;
     font-size: 4rem;
     text-align: center;
+    color: white;
+  }
+
+  h2{
+    font-family: 'Roboto', san-serif;
+    font-size: 2rem;
+    text-align: center;
+    color: purple;
   }
   img{
     margin-left: auto;
@@ -14,6 +22,8 @@
   }
   p{
     font-size: 20px;
+    font-family: courier;
+    color: #c24451;
   }
   ul{
     text-align: center;
@@ -24,6 +34,11 @@
   table{
     margin-left: auto;
     margin-right: auto;
-    
+
+  }
+
+  iframe{
+      align="center";
+
   }
 ]

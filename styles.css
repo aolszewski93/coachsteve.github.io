@@ -10,14 +10,16 @@
   }
 
   h2{
-    font-family: 'Roboto', san-serif;
+    font-family: Roboto, san-serif;
     font-size: 2rem;
     text-align: center;
     color: purple;
   }
   img{
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
     display:block;
   }
   p{
@@ -37,8 +39,38 @@
 
   }
 
-  iframe{
-      align="center";
-
+  .left-side{
+    text-align: left;
+    position: relative;
+    display:inline-block;
+    margin-left: auto;
+    margin-right: 50%;
   }
+
+  .right-side{
+    height: 100%;
+    position:relative;
+    margin-right: auto;
+    margin-left: 50%;
+  }
+
+  .videos{
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 5em;
+  }
+
+ #invert_table{
+   background-color: purple;
+   color: #4bef76;
+ }
+
+ .contact{
+  position: fixed;
+  background-color: #4bef76;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+ }
 ]
